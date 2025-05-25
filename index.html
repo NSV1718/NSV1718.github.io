@@ -1,12 +1,30 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Basic HTML Page</title>
+    <title>Welcome to My GitHub Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>This is a simple HTML page.</p>
+    <button class="dark-toggle" id="darkToggle">🌙 Dark Mode</button>
+    <header>
+        <h1>Welcome to NSV1718's GitHub Page!</h1>
+        <p>This is the main page of your website, hosted with GitHub Pages.</p>
+    </header>
+    <main>
+        <div class="search-box">
+            <input type="text" id="searchInput" class="search-input" placeholder="Search books...">
+            <button class="search-btn" id="searchBtn">Search</button>
+        </div>
+        <h2>Books (PDF)</h2>
+        <ul id="bookList">
+            <li><a href="Advanced Control Engineering (Roland Burns).pdf" target="_blank"><span class="pdf-icon">📄</span>Advanced Control Engineering (Roland Burns)</a></li>
+            <li><a href="Advanced engineering mathematics by ERWIN ERESZIG (Erwin Ereszig).pdf" target="_blank"><span class="pdf-icon">📄</span>Advanced Engineering Mathematics (Erwin Ereszig)</a></li>
+            <li><a href="Digital Logic and Computer Design (M. Morris Mano).pdf" target="_blank"><span class="pdf-icon">📄</span>Digital Logic and Computer Design (M. Morris Mano)</a></li>
+            <li><a href="Electrical Power Systems (C.L. etc.).pdf" target="_blank"><span class="pdf-icon">📄</span>Electrical Power Systems (C.L. etc.)</a></li>
+        </ul>
+        <a class="button" href="mailto:your.email@example.com">Contact Me</a>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
